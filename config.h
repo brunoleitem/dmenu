@@ -5,7 +5,7 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static int centered = 1;
 static int min_width = 300;
-static const unsigned int alpha = 0xdd;
+static const unsigned int alpha = 210;
 
 static const char *fonts[] = {
 	"monospace:size=10"
@@ -15,8 +15,8 @@ static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
 	[SchemeNorm] = { "#bbbbbb", "#222222" },
 	[SchemeSel] = { "#eeeeee", "#005577" },
-	[SchemeSelHighlight] = {"#ffc978", "#005577"},
-	[SchemeNormHighlight] = {"#ffc978", "#222222"},
+	[SchemeSelHighlight] = {"#0d1117", "#f9826c"},
+	[SchemeNormHighlight] = {"#ffffff", "#161b22"},
 	[SchemeOut] = { "#000000", "#00ffff" },
 	[SchemeOutHighlight] = {"#ffc978", "#00ffff"},
 };
