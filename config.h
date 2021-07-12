@@ -8,7 +8,7 @@ static int min_width = 300;
 static const unsigned int alpha = 210;
 
 static const char *fonts[] = {
-	"monospace:size=10"
+	"Gohu GohuFont:size=10"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
@@ -21,11 +21,11 @@ static const char *colors[SchemeLast][2] = {
 	[SchemeOutHighlight] = {"#ffc978", "#00ffff"},
 
 */
-	[SchemeNorm] = { "#fbf1c7", "#3c3836" },
-	[SchemeSel] = { "#83a598", "#504945" },
-	[SchemeSelHighlight] = { "#fe8019", "#504945" },
-	[SchemeNormHighlight] = { "#458588", "#3c3836" },
-	[SchemeOut] = { "#b8bb26", "#b8bb26" },
+	[SchemeNorm] = { "#E1E1E6", "#191622" },
+	[SchemeSel] = { "#E1E1E6", "#483C67" },
+	[SchemeSelHighlight] = { "#fe8019", "#191622" },
+	[SchemeNormHighlight] = { "#988BC7", "#191622" },
+	[SchemeOut] = { "#b8bb26", "#483C67" },
 };
 
 static const unsigned int alphas[SchemeLast][2] = {
